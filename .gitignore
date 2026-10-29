@@ -1,0 +1,76 @@
+# Original dataset and generated image datasets
+dataset/
+**/raw/
+evaluation/end_to_end_heldout_106/images/
+graders_photos/
+
+# Confidential inter-rater mapping
+**/sample_key_CONFIDENTIAL.csv
+
+# Generated photos and visualization images in training runs
+runs/**/*.jpg
+runs/**/*.jpeg
+runs/**/*.png
+
+# Generated annotation review data containing dataset material
+runs/presence_annotation_review/contact_sheets/
+runs/presence_annotation_review/verified_labels/
+runs/presence_final/evaluation/map_test/
+
+# Python environments and caches
+.venv/
+venv/
+node_modules/
+**/__pycache__/
+*.py[cod]
+.env
+*.npz
+
+# Avoid committing large archives
+*.zip
+
+# Intermediate checkpoints
+**/last.pt
+runs/stage1_initial/weights/
+runs/stage1_initial-2/weights/
+runs/stage2_initial/weights/
+runs/stage1_hparam_search_final/trial_*/weights/
+runs/stage2_hparam_search_final/trial_*/weights/
+
+# Unnecessary pretrained copies; Ultralytics can obtain these
+/yolo11n.pt
+/yolo11n-cls.pt
+# Never publish the 106 held-out test photographs
+/evaluation/end_to_end_heldout_106/images/
+
+# Exclude all model checkpoints by default
+/runs/**/weights/*.pt
+
+# Keep only the three final trained models
+!/runs/stage1_final/weights/best.pt
+!/runs/stage2_final/weights/best.pt
+!/runs/presence_final/weights/best.pt
+
+# Do not publish confidential grader mapping
+**/sample_key_CONFIDENTIAL.csv
+
+# Exclude generated annotation images
+/stage2_annotation_preview/*.jpg
+/stage2_annotation_preview/*.jpeg
+/stage2_annotation_preview/*.png
+
+# Exclude generated review images and verified label copies
+/runs/presence_annotation_review/contact_sheets/
+/runs/presence_annotation_review/verified_labels/
+
+# Exclude generated presence-model test images
+/runs/presence_final/evaluation/map_test/
+
+# Dataset-derived annotation files not intended for public release
+/stage2_annotation_preview/
+/runs/presence_annotation_review/proposed_labels/
+/runs/presence_annotation_review/corrected_labels/
+/runs/presence_annotation_review/rejected_review.csv
+
+# Extra checkpoint not used as a final model
+/runs/stage2/weights/

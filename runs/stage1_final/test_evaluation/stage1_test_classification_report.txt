@@ -1,0 +1,16 @@
+FINAL STAGE 1 HELD-OUT TEST CLASSIFICATION REPORT
+==============================================
+
+Checkpoint: C:\Users\saiar\Pictures\cardava_thesis\runs\stage1_final\weights\best.pt
+Test set: 225 images (150 Healthy, 75 Unhealthy)
+Preprocessing: Resize(224,224) -> ToTensor()
+Augmentation: None
+
+              precision    recall  f1-score   support
+
+     Healthy     0.9934    1.0000    0.9967       150
+   Unhealthy     1.0000    0.9867    0.9933        75
+
+    accuracy                         0.9956       225
+   macro avg     0.9967    0.9933    0.9950       225
+weighted avg     0.9956    0.9956    0.9955       225

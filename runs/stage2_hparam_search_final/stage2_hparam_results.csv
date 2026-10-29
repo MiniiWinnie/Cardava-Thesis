@@ -1,0 +1,5 @@
+trial,trial_name,actual_output_folder,resumed_existing_trial,learning_rate,batch_size,weight_decay,dropout,best_val_map50_95,best_val_map50,best_val_precision,best_val_recall,best_val_epoch,final_val_map50_95,final_val_map50,final_val_precision,final_val_recall,training_time_seconds
+1,trial_01,C:\Users\saiar\Pictures\cardava_thesis\runs\stage2_hparam_search_final\trial_01,False,0.001459,4,0.000767,,0.99284,0.995,1.0,1.0,38,0.99079,0.995,1.0,1.0,4848.955443382263
+2,trial_02,C:\Users\saiar\Pictures\cardava_thesis\runs\stage2_hparam_search_final\trial_02,False,0.000867,4,0.000763,,0.99452,0.995,1.0,1.0,41,0.99208,0.995,1.0,1.0,4816.554126262665
+3,trial_03,C:\Users\saiar\Pictures\cardava_thesis\runs\stage2_hparam_search_final\trial_03,False,0.001515,4,0.000631,,0.99335,0.995,0.99966,1.0,37,0.99032,0.995,1.0,1.0,4878.980619192123
+4,trial_04,C:\Users\saiar\Pictures\cardava_thesis\runs\stage2_hparam_search_final\trial_04,False,0.000548,4,0.000297,,0.9938,0.995,1.0,1.0,32,0.98936,0.995,0.99966,1.0,4899.162143230438

@@ -1,0 +1,7 @@
+{
+  "test_images_in_dataset": 225,
+  "mAP50": 0.995,
+  "mAP50_95": 0.9874145234407548,
+  "validation_conf_for_map": 0.001,
+  "imgsz": 640
+}

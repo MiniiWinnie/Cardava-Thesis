@@ -1,0 +1,14 @@
+metric,value
+accuracy,0.9955555555555555
+macro_precision,0.9966887417218543
+macro_recall,0.9933333333333334
+macro_f1,0.9949831657339071
+weighted_precision,0.9955849889624724
+weighted_recall,0.9955555555555555
+weighted_f1,0.9955480241105339
+healthy_precision,0.9933774834437086
+healthy_recall,1.0
+healthy_f1,0.9966777408637874
+unhealthy_precision,1.0
+unhealthy_recall,0.9866666666666667
+unhealthy_f1,0.9932885906040269

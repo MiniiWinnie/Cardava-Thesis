@@ -1,0 +1,22 @@
+{
+    "selection_set": "validation",
+    "test_set_used": false,
+    "training_derived_threshold_px": 2733.19,
+    "selected_validation_threshold_px": 2730.0736389160156,
+    "validation_accuracy": 0.8066666666666666,
+    "validation_macro_precision": 0.8111471861471862,
+    "validation_macro_recall": 0.8066666666666666,
+    "validation_macro_f1": 0.8059681520139168,
+    "class_A_precision": 0.7738095238095238,
+    "class_A_recall": 0.8666666666666667,
+    "class_A_f1": 0.8176100628930818,
+    "class_B_precision": 0.8484848484848485,
+    "class_B_recall": 0.7466666666666667,
+    "class_B_f1": 0.7943262411347518,
+    "confusion_matrix": {
+        "actual_A_predicted_A": 65,
+        "actual_A_predicted_B": 10,
+        "actual_B_predicted_A": 19,
+        "actual_B_predicted_B": 56
+    }
+}

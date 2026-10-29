@@ -1,0 +1,35 @@
+{
+  "total_images": 106,
+  "correct_images": 100,
+  "incorrect_images": 6,
+  "end_to_end_accuracy": 0.9433962264150944,
+  "balanced_accuracy_macro_recall": 0.8913888888888889,
+  "macro_precision": 0.8888888888888888,
+  "macro_f1": 0.8787152444870565,
+  "stage1_correct": 105,
+  "stage1_accuracy_on_106": 0.9905660377358491,
+  "stage2_invoked_images": 32,
+  "stage2_detection_successes": 32,
+  "stage2_no_detection_count": 0,
+  "final_prediction_counts": {
+    "Rejected": 74,
+    "Class_A": 20,
+    "Class_B": 12
+  },
+  "ground_truth_counts": {
+    "Rejected": 75,
+    "Class_B": 16,
+    "Class_A": 15
+  },
+  "stage1_checkpoint": "C:\\Users\\saiar\\Pictures\\cardava_thesis\\runs\\stage1_final\\weights\\best.pt",
+  "stage2_checkpoint": "C:\\Users\\saiar\\Pictures\\cardava_thesis\\runs\\stage2_final\\weights\\best.pt",
+  "stage1_imgsz": 224,
+  "stage1_preprocessing": "PIL RGB -> torchvision Resize((224,224)) -> ToTensor() -> direct model forward",
+  "stage2_imgsz": 640,
+  "stage2_detector_confidence": 0.25,
+  "width_threshold_px": 2730.0736389160156,
+  "width_rule": "Class_A if bbox_width_px > width_threshold_px; otherwise Class_B",
+  "test_subset": "106 cross-stage held-out images from original 1500-image dataset",
+  "external_new_dataset": false,
+  "training_or_threshold_tuning_performed": false
+}

@@ -1,0 +1,28 @@
+STAGE 1 HYPERPARAMETER TRIAL
+=============================
+
+Trial Number : 1
+Random Seed  : 42
+Learning Rate: 0.001459
+Batch Size   : 8
+Weight Decay : 0.000767
+Dropout      : 0.048978
+
+FIXED AUGMENTATIONS
+Horizontal Flip : p = 0.5
+Vertical Flip   : p = 0.5
+Brightness      : ±10%
+Contrast        : ±10%
+Gaussian Noise  : sigma = 5/255, p = 0.5
+
+EXCLUDED AUGMENTATIONS
+Rotation        : None
+Translation     : None
+Random Crop     : None
+Random Scaling  : None
+Blur            : None
+Mosaic          : None
+MixUp           : None
+CutMix          : None
+RandAugment     : None
+Random Erasing  : None

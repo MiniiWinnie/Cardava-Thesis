@@ -1,0 +1,13 @@
+{
+    "checkpoint": "C:\\Users\\saiar\\Pictures\\cardava_thesis\\runs\\stage2_final\\weights\\best.pt",
+    "test_images": 150,
+    "calibration_cm_per_pixel": 0.012658,
+    "class_B_min_cm": 8.0,
+    "class_A_min_cm": 12.0,
+    "class_B_min_px": 632.0113762047716,
+    "class_A_min_px": 948.0170643071575,
+    "accuracy": 0.5,
+    "macro_precision": 0.25,
+    "macro_recall": 0.5,
+    "macro_f1": 0.3333333333333333
+}

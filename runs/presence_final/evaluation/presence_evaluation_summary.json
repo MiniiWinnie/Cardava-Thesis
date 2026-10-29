@@ -1,0 +1,39 @@
+{
+  "weights": "C:\\Users\\saiar\\Pictures\\cardava_thesis\\runs\\presence_final\\weights\\best.pt",
+  "trigger_confidence": 0.8,
+  "preview_size": [
+    640,
+    360
+  ],
+  "model_imgsz": 640,
+  "mAP50": 0.995,
+  "mAP50_95": 0.9874145234407548,
+  "per_grade_trigger_recall": {
+    "Class_A": {
+      "detected": 67,
+      "total": 67,
+      "recall": 1.0,
+      "misses": []
+    },
+    "Class_B": {
+      "detected": 83,
+      "total": 83,
+      "recall": 1.0,
+      "misses": []
+    },
+    "Rejected": {
+      "detected": 75,
+      "total": 75,
+      "recall": 1.0,
+      "misses": []
+    }
+  },
+  "background_false_detections": null,
+  "background_test_images": 0,
+  "background_false_trigger_evaluation_available": false,
+  "target_test_counts_match_plan": true,
+  "all_banana_test_images_detected": true,
+  "zero_background_false_detections": null,
+  "pass_all_requested_targets": false,
+  "warning": "These metrics reflect this dataset and one-frame preview simulation. If no background test images are present, false-trigger performance is NOT EVALUATED and the model cannot pass all targets. Verify live camera stability and trigger timing on the Raspberry Pi."
+}

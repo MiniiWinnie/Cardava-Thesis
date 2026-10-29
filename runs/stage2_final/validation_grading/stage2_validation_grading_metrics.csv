@@ -1,0 +1,17 @@
+metric,value
+validation_images,150.0
+correct_predictions,120.0
+incorrect_predictions,30.0
+no_detection,0.0
+errors,0.0
+accuracy,0.8
+class_A_precision,0.7710843373493976
+class_A_recall,0.8533333333333334
+class_A_f1,0.810126582278481
+class_B_precision,0.835820895522388
+class_B_recall,0.7466666666666667
+class_B_f1,0.7887323943661971
+macro_precision,0.8034526164358928
+macro_recall,0.8
+macro_f1,0.7994294883223391
+frozen_width_threshold_px,2733.19

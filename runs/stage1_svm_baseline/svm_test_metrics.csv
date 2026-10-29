@@ -1,0 +1,14 @@
+metric,value
+test_images,225.0
+accuracy,0.9466666666666667
+macro_precision,0.9327167826234515
+macro_recall,0.9533333333333334
+macro_f1,0.9414773712502167
+healthy_precision,0.9859154929577465
+healthy_recall,0.9333333333333333
+healthy_f1,0.958904109589041
+unhealthy_precision,0.8795180722891566
+unhealthy_recall,0.9733333333333334
+unhealthy_f1,0.9240506329113924
+healthy_support,150.0
+unhealthy_support,75.0

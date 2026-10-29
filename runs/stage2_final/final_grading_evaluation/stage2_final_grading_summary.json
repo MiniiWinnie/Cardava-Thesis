@@ -1,0 +1,8 @@
+{
+    "test_images": 150,
+    "frozen_threshold_px": 2730.07,
+    "accuracy": 0.8466666666666667,
+    "macro_precision": 0.8574046920821115,
+    "macro_recall": 0.8466666666666667,
+    "macro_f1": 0.8455062469213201
+}

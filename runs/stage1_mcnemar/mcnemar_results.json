@@ -1,0 +1,13 @@
+{
+    "test_images": 225,
+    "yolo_accuracy": 0.9955555555555555,
+    "svm_accuracy": 0.9466666666666667,
+    "yolo_correct": 224,
+    "svm_correct": 213,
+    "mcnemar_b": 12,
+    "mcnemar_c": 1,
+    "discordant_pairs": 13,
+    "mcnemar_exact_p_value": 0.00341796875,
+    "alpha": 0.05,
+    "significant_at_alpha_0.05": true
+}
