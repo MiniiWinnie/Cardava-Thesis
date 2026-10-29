@@ -1,0 +1,107 @@
+filename,original_class,stage1_class,split,true_label,yolo_predicted_label,yolo_correct,stage2_split_membership,selection_reason
+Class_A_092.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_145.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_300.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_349.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_358.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_361.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_432.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_474.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_482.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_504.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_506.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_515.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_553.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_599.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_A_618.jpg,Class_A,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_181.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_296.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_320.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_338.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_418.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_572.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_578.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_590.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_604.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_615.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_630.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_697.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_698.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_715.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_825.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Class_B_854.jpg,Class_B,Healthy,test,Healthy,Healthy,True,stage2_test,Healthy image appears in both Stage 1 test and Stage 2 test
+Rejected_038.jpg,Rejected,Unhealthy,test,Unhealthy,Healthy,False,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_056.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_057.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_059.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_062.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_087.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_091.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_102.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_123.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_131.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_146.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_148.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_154.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_165.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_168.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_172.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_175.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_183.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_187.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_190.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_197.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_204.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_206.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_210.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_211.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_215.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_219.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_231.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_242.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_249.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_250.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_256.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_261.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_277.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_290.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_295.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_308.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_314.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_338.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_342.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_344.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_352.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_366.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_369.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_370.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_375.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_383.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_384.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_401.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_404.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_411.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_416.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_428.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_437.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_443.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_444.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_448.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_463.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_470.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_475.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_480.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_483.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_492.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_494.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_501.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_502.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_503.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_504.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_505.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_513.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_527.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_530.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_535.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_553.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset
+Rejected_576.jpg,Rejected,Unhealthy,test,Unhealthy,Unhealthy,True,not_in_stage2_dataset (Rejected excluded from healthy A/B detector dataset),Stage 1 test Rejected image; excluded from Stage 2 healthy-only dataset

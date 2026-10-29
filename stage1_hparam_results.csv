@@ -1,0 +1,5 @@
+trial,lr0,batch,weight_decay,dropout,best_epoch,best_val_accuracy,best_val_loss,final_val_accuracy,final_val_loss,epochs_recorded,run_directory
+2,0.001432,16,0.000805,0.11,42,0.97778,0.06072,0.96889,0.05067,50,C:\Users\saiar\Pictures\cardava_thesis\runs\classify\runs\stage1_hparam\trial_02
+1,0.000679,8,0.000896,0.179,8,0.96889,0.10274,0.96889,0.06735,28,C:\Users\saiar\Pictures\cardava_thesis\runs\classify\runs\stage1_hparam\trial_01
+3,0.001596,16,0.000776,0.117,10,0.96889,0.08711,0.96444,0.07443,30,C:\Users\saiar\Pictures\cardava_thesis\runs\classify\runs\stage1_hparam\trial_03
+4,0.00086,8,0.0002,0.163,8,0.96444,0.09463,0.94667,0.1562,28,C:\Users\saiar\Pictures\cardava_thesis\runs\classify\runs\stage1_hparam\trial_04

@@ -1,0 +1,5 @@
+trial,lr0,batch,weight_decay,best_epoch,best_precision,best_recall,best_mAP50,best_mAP50_95,best_val_box_loss,best_val_cls_loss,best_val_dfl_loss,final_mAP50,final_mAP50_95,epochs_recorded,run_directory
+3,0.001322,8,0.000776,39,0.99965,1.0,0.995,0.99488,0.12619,0.11137,0.7927,0.995,0.99209,50,C:\Users\saiar\Pictures\cardava_thesis\runs\detect\runs\stage2_hparam\trial_03
+4,0.00138,4,0.000102,32,0.99879,1.0,0.995,0.99343,0.16777,0.14359,0.80554,0.995,0.98846,50,C:\Users\saiar\Pictures\cardava_thesis\runs\detect\runs\stage2_hparam\trial_04
+1,0.000679,4,0.000896,27,0.99964,1.0,0.995,0.99233,0.15393,0.13854,0.8032,0.995,0.98976,47,C:\Users\saiar\Pictures\cardava_thesis\runs\detect\runs\stage2_hparam\trial_01
+2,0.001842,8,0.000805,50,0.9996,1.0,0.995,0.99232,0.10504,0.09356,0.78757,0.995,0.99232,50,C:\Users\saiar\Pictures\cardava_thesis\runs\detect\runs\stage2_hparam\trial_02
