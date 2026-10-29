@@ -281,8 +281,8 @@ def extract_features(image_path):
     # --------------------------------------------------------
     # Foreground mask
     #
-    # Stage 1 images are masked RGB images with a black
-    # background. Exclude near-black background pixels.
+    # Stage 1 images are raw RGB frames on black velvet.
+    # Exclude near-black background pixels.
     # --------------------------------------------------------
 
     foreground = (
